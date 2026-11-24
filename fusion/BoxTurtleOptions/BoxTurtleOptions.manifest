@@ -1,0 +1,13 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "addin",
+  "id": "582bf37c-7bf3-4755-bd15-07772552d064",
+  "author": "BoxTurtle project helper",
+  "description": {
+    "": "Shows the six optional assemblies in the BoxTurtle dual-tier STEP."
+  },
+  "version": "1.0.2",
+  "runOnStartup": true,
+  "supportedOS": "windows|mac",
+  "editEnabled": true
+}

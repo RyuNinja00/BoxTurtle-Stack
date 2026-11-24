@@ -1,0 +1,105 @@
+BoxTurtle V1 Dual Tier — fit and setup notes
+==========================================
+
+Open BoxTurtle-V1-Dual-Tier.step in Fusion. Expand OPTIONS in the Browser.
+Its six subassemblies have separate visibility controls. The STEP carries
+off-by-default visibility directives.
+
+For a dedicated BoxTurtle Options toolbar tab and automatic all-off defaults:
+
+1. Extract this ZIP.
+2. In Fusion, open Design > Utilities > Add-Ins > Scripts and Add-Ins.
+3. On the Add-Ins tab, use the plus icon to add the BoxTurtleOptions folder.
+4. Select BoxTurtleOptions and click Run.
+5. Choose BoxTurtle Options > Show options, select the parts you want, and
+   click OK. Save the imported Fusion design to keep those visibility states.
+
+The add-in changes visibility only. On first use in this design it switches
+all six options off. The add-in needs no network connection.
+
+ASSEMBLY DATUMS — ALL DIMENSIONS IN MM
+
+    Continuous posts              4 x 20 x 20 profile, 760 long
+    Lower to upper tier pitch      400, between identical tier datums
+    Metal frame footprint          400 wide x 260 deep
+    Roof-to-upper-base frame gap   40, measured between metal rail faces
+    Solid middle divider           372 x 232.4 x 3, 2.3 installed gasket
+    Stock side acrylic             232 x 252.4 x 3 per side
+    Stock rear and door acrylic    371 x 251.4 x 3 each
+    Lane buffer centers            90 pitch, four per tier
+    Lower door in CAD              80 degrees open, for cassette service
+    Upper door in CAD              closed
+
+These are CAD dimensions. Keep the original rounded/chamfered DXF outline
+when cutting stock acrylic. The solid divider uses the stock top outline.
+The 5.5 mm cross holes follow the stock drill pattern, repeated 400 mm
+higher. From the bottom end of a post the center distances are 10, 90,
+350, 410, 490 and 750 mm. Transfer and verify these from your actual
+rail positions before drilling. The tall frame needs a secure
+structural support and anchoring selected for the actual installation.
+
+01 — FRONT-PULL MOLECULAR SIEVE CASSETTES
+
+Two per tier, nominal cassette shell 145 x 68 x 38 plus the finger pull.
+Each holds about 0.31 L gross, before fill clearance. The lid has 1 mm
+vent slots and room for fine media-retaining mesh. Use mesh if granules
+or fines can pass through the slots. Keep it clear of the spool path.
+
+The slide rails have approximately 0.45–0.50 mm nominal side clearance
+and rear stops. The inner hangers mount to the front roof rail and outer hangers to
+the side roof rails, all with M5 T-nuts. Verify print tolerance with one cassette and one pair of rails.
+Both cassette pull envelopes cleared the modeled door at the 80-degree
+service pose. The left pull was obstructed at 35 degrees. Open the upper
+door fully before removing its trays.
+
+The spool check uses a 210 mm diameter study envelope, including a seated
+case based on the rollers and one lifted/front-shifted case. Test your
+largest spools during actual loading before committing to the tray print.
+
+02 — HYGROMETER CRADLES
+
+One per tier. Mount at the center of the upper front rail using an M5
+T-nut. The display is inside the bay and faces through the clear door.
+The cradle is rear-loading. Remove its two M2.5 keeper screws to install
+or service the meter; the large opening in the keeper exposes the sensor.
+
+The photo supplies a 45 mm bezel and 16 mm overall depth. The cradle's
+nominal bezel pocket is 45.6 mm. The meter body and retention tabs are
+fit references based on the photo. Measure the real housing and battery
+door before printing. Keep a path for air to reach the sensor.
+
+03 — REAR PTFE GUIDES
+
+Four 4 mm OD tube paths on 90 mm centers per tier. The removable cap
+closes around nominal 4.8 mm bores. Use two M3 x 25 mm cap screws per tier with standard 5.5 mm across-flats
+M3 hex nuts in the underside pockets, and M5 T-nuts at the arms. Route the tubes with a smooth bend, keeping
+slack to operate the buffer collets, and clear the original fan and power
+opening. Tube shapes beyond the buffer outlets depend on your installation.
+
+04 — FLOOR AND FEEDTHROUGH SEAL TEMPLATES
+
+Use the labeled rail-top foam lengths in place of a continuous floor gasket.
+The strips clear the rollers and tray hardware in CAD. The stock tray
+and fan arrangement still needs an airflow check during assembly. The active-lane collar and unused-lane plugs are separate
+Browser subgroups. The nominal plug tip is 1.9 mm for a measured 2 mm
+tube bore. Use a soft material and fit to the installed fittings.
+Use the humidity readings to check the assembled seals on both bays.
+
+05 — UPPER ANTI-TIP BRACKETS
+
+Metal bracket envelopes with M5 frame mounting positions. The wall-side
+holes are reference geometry. Choose the wall or bench anchors and verify
+the frame load path for your installation.
+
+06 — MID-FRAME TIE PLATES AND TRANSFER TEMPLATES
+
+Metal side plates use three 5.3 mm holes each and 4 mm standoffs to clear
+the corner covers. The transfer blocks mark the lower roof and upper base
+rail elevations. They are 5.5 mm reference gauges for dry fit. The posts show both
+sets of stock cross holes.
+
+DRY STORAGE
+
+Load pre-dried filament in each bay. Use the molecular sieve cassettes
+and hygrometers to monitor the retained humidity. The lower rear panel
+uses the stock acrylic outline.

@@ -1,0 +1,59 @@
+{
+  "archive": {
+    "name": "BoxTurtle-V1-Dual-Tier.step.zip",
+    "bytes": 35076551,
+    "sha256": "00c8c4a8dfdf69cce62a1464401533e6b2122902a207341ec7d134d4eb957acf"
+  },
+  "step": {
+    "name": "BoxTurtle-V1-Dual-Tier.step",
+    "bytes": 173412748,
+    "sha256": "a26524ed12f2b24c16d9806a24d9113a466a45ec373c9a3d1bc5080bee698272"
+  },
+  "parts": [
+    {
+      "name": "BoxTurtle-V1-Dual-Tier.step.zip.part-00",
+      "bytes": 4194304,
+      "sha256": "27ca769234dce0eaa75d68a340f475e0c7e6747c30e764de1d2a1d4c89d5de72"
+    },
+    {
+      "name": "BoxTurtle-V1-Dual-Tier.step.zip.part-01",
+      "bytes": 4194304,
+      "sha256": "19e90e02acde9eb6bbc1b230d47ca920f802a6e322d6cbf0a9b54bf6cd4f4607"
+    },
+    {
+      "name": "BoxTurtle-V1-Dual-Tier.step.zip.part-02",
+      "bytes": 4194304,
+      "sha256": "e4af5b58100dca9c532bc721f91567ce54db24877d01bd0855b2ad200c61ae85"
+    },
+    {
+      "name": "BoxTurtle-V1-Dual-Tier.step.zip.part-03",
+      "bytes": 4194304,
+      "sha256": "2a46f42845d879ef845ee1a1ecf9ab20174024ff2fe02ea7c1f7789984c83b11"
+    },
+    {
+      "name": "BoxTurtle-V1-Dual-Tier.step.zip.part-04",
+      "bytes": 4194304,
+      "sha256": "2a755fd228c9118ca5758b3a39a22b19b3a8f286401dda69f76f2089a16c2780"
+    },
+    {
+      "name": "BoxTurtle-V1-Dual-Tier.step.zip.part-05",
+      "bytes": 4194304,
+      "sha256": "60221ceb5dae648a449830e30bce10f2da67e2dfcad98e098ff93f20ec8c965d"
+    },
+    {
+      "name": "BoxTurtle-V1-Dual-Tier.step.zip.part-06",
+      "bytes": 4194304,
+      "sha256": "b5ec6ff6a7f0a5a15fb5257ae1cccd48a21e8b89fb012f2916186376294d0b1f"
+    },
+    {
+      "name": "BoxTurtle-V1-Dual-Tier.step.zip.part-07",
+      "bytes": 4194304,
+      "sha256": "0fca9685bf1f81c7836ac9081a9421555e814a9334ac8835d5388d428d7b6780"
+    },
+    {
+      "name": "BoxTurtle-V1-Dual-Tier.step.zip.part-08",
+      "bytes": 1522119,
+      "sha256": "9923dad366c9aec8e5377649ed36fd27ee29b9911bc734dd98596bfcad222ad7"
+    }
+  ]
+}

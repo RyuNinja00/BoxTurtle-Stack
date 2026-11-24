@@ -1,0 +1,39 @@
+BoxTurtle-Stack clean one-pass rebuild
+=====================================
+
+Date: 2026-11-23 (America/Los_Angeles)
+Base project commit: 7e945d86dfe2f6b5a3a33e40821d7edbec957a79
+Environment: Linux, Python 3.12.14, CadQuery 2.7.0,
+             cadquery-ocp 7.8.1.1.post1, NumPy 2.3.5
+
+Command:
+  python tools/rebuild.py --work-dir rebuild-work
+
+The work directory did not exist at launch. The runner fetched the
+pinned revisions, performed all stages and exited with status 0.
+
+Upstream revisions checked out:
+  ArmoredTurtle/BoxTurtle-Enclosure c2940c63be7a276a4c5c59f111fb72c9bd807601
+  N3MI-DG/Lane-Buffer 0a6b0cdb551db7cce285cbef08f7ae515c3962ac
+
+Final verifier output:
+  Four posts: 20 x 20 x 760, both-axis 5.5 mm holes at all six stock-derived elevations
+  Lower divider and upper roof clear stock clips, covers and screws
+  16 floor tape lengths clear both mechanisms; captive M3 nuts clear guide brackets
+  Lower door retains its 80-degree service pose
+  Six-option dry-storage STEP passed reimport
+
+Compared against the STEP reassembled from the published GitHub archive:
+  2,454,099 matching non-appearance STEP records, including placements and visibility directives
+  Model-record SHA-256: b2e267e2767957ced039e9c75422ad1250475f26f96d57b89758a3afd036fbf6
+
+The two files have the same size (173,412,748 bytes). Their export header
+and appearance records differ. The release STEP and archive checksums
+remain the exact-byte reference for the shipped model.
+
+Separate Fusion check:
+  python tools/test_fusion_options.py
+  Fusion mock smoke test passed: ZIP matches source, toolbar, six toggles,
+  per-design defaults, missing design, cleanup.
+
+Desktop Fusion and physical build checks are separate from this run.

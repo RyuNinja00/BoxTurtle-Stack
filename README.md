@@ -10,6 +10,8 @@ A two-tier dry-storage enclosure for the **ArmoredTurtle BoxTurtle V1**. The ass
 
 The lower door is shown at its **80° cassette-service pose** and the upper door is closed.
 
+For the dedicated toolbar, see the **[BoxTurtle Options installation and troubleshooting guide](fusion/README.md)**.
+
 ## Project references
 
 | Start here | Contents |

@@ -32,4 +32,12 @@ Both upstream projects license these models under GPLv3. The shipped STEP record
 3. Build the accessory option groups and service pose. The source door's pivot is X = −57, Y = −11.5. The source assembly pose is 35° from closed. The service-pose correction applies an additional 45° of opening around that pivot.
 4. Install the dry-storage refinements, remove the lower dryer option, compress the modeled gasket stacks, replace the floor template with rail strips, add captive M3 hardware and apply the measured upright drill pattern. Write and reimport the final STEP.
 
-The [stage source directory](../tools/rebuild-stages/) retains the work used to produce the assembly, including the original cross-hole survey and the clearance-tested edits. The delivery STEP, its hash, and the verification output are the release baseline. The clean-workspace runner was assembled from the working stages. An end-to-end rebuild of the runner has not yet been independently verified, and OpenCascade exports can differ at the byte level. Use geometry checks when comparing regenerated output.
+The [stage source directory](../tools/rebuild-stages/) retains the work used to produce the assembly, including the original cross-hole survey and the clearance-tested edits. The delivery STEP, its hash, and the verification output are the release baseline. The full runner passed from a clean checkout in one invocation. It fetched both pinned upstream revisions, wrote the final STEP and passed the OpenCascade reimport checks. See the [one-pass rebuild record](rebuild-verification.txt).
+
+The rebuilt file and delivery STEP differed in their export headers and appearance records. To compare the model, including assembly placements and option visibility directives, run:
+
+```sh
+python tools/compare_step_model.py downloads/BoxTurtle-V1-Dual-Tier.step rebuild-work/dry-storage/BoxTurtle-V1-Dual-Tier.step
+```
+
+The comparison retains all non-appearance STEP entity records. Use the [delivery manifest](../cad/manifest.json) when you need the exact published bytes.
